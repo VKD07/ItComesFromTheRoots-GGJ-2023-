@@ -2941,7 +2941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shopInterface: {fileID: 1369074577}
   pointsValue: {fileID: 1094286752}
-  TotalPoints: 1000
+  TotalPoints: 10
   healCost: 30
   additionalHeal: 60
   healValue: {fileID: 1962361363}
@@ -10024,8 +10024,8 @@ MonoBehaviour:
   - Spring
   - Summer
   - Winter
-  minimumTime: 3
-  maximumTime: 3
+  minimumTime: 45
+  maximumTime: 60
   statusScript: {fileID: 246552231}
   declare: 0
 --- !u!95 &1391762136
@@ -14224,7 +14224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &919132149578703795
 GameObject:
   m_ObjectHideFlags: 0
@@ -15011,7 +15011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireParticle: {fileID: 5777866894146675945}
   statusSlider: {fileID: 246552230}
-  heat: 5
+  heat: 3
 --- !u!82 &2339365225882402498
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41048,7 +41048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7979460984780953289, guid: 38624c45d62ec224ebdfc479bcb4e7fa, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38624c45d62ec224ebdfc479bcb4e7fa, type: 3}
